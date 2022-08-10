@@ -48,7 +48,7 @@ the '-in' flag instead of the '-out' flag.
 mnem -n 4 -m 100 -l 1000 -K 2 -in data.txt -out res.txt
 ```
 
-Several runs are suggested, depending on noise and complecity of the ground truth. If
+Several runs are suggested, depending on noise and complexity of the ground truth. If
 the number of components K is unknown, several different Ks are suggested. However, the
 log likelihood cannot be compared directly. Some form of Information Criterion like BIC
 or AIC (not implemented) is necessary to select the best K.
